@@ -3,7 +3,7 @@
 	<br>
 </div>
 
-This web app let you find out your own robofriends which is fetched from json file! [LINK](https://cctsai-tony.github.io/robofriends/).
+This web app let you find out your own robofriends which is fetched from the [RoboHash](https://robohash.org/)! [LINK](https://cctsai-tony.github.io/robofriends/).
 
 I'm happy to accept more configurability and features. PR welcome! What you see here is just what I needed for my own apps.
 
