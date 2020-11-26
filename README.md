@@ -1,3 +1,28 @@
+<div align="center">
+	<img width="900" src="https://github.com/CCTSAI-Tony/robofriends/blob/master/logo.png" alt="robofriendsl">
+	<br>
+</div>
+
+This web app let you find out your own robofriends which is fetched from json file! [LINK](https://cctsai-tony.github.io/robofriends/).
+
+I'm happy to accept more configurability and features. PR welcome! What you see here is just what I needed for my own apps.
+
+## User Interfaces
+
+#### Main site
+
+<img src="https://github.com/CCTSAI-Tony/robofriends/blob/master/main.png" width="532">
+
+#### Search field
+
+<img src="https://github.com/CCTSAI-Tony/robofriends/blob/master/search.png" width="532">
+
+## To run web server locally, run the following commands.
+
+1. Clone this repo
+2. Run `npm install`
+3. Run `npm start`
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

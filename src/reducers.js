@@ -35,7 +35,8 @@ const initialStateRobots = {
 export const requestRobots = (state = initialStateRobots, action = {}) => {//this reducer worries about searchRobots
   switch (action.type) {
     case REQUEST_ROBOTS_PENDING:
-      return Object.assign({}, state, { isPending: true });
+      return Object.assign({}, state, { isPending: true }); 
+      //{} 是target,  state, { isPending: true } 都是source, property產生重複的話, 後面覆蓋前面
     case REQUEST_ROBOTS_SUCCESS:
       return Object.assign({}, state, {
         robots: action.payload,
